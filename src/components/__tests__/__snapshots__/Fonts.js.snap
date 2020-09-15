@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fonts renders lora correctly 1`] = `null`;
+
+exports[`Fonts renders muli correctly 1`] = `null`;
+
+exports[`Fonts renders popp correctly 1`] = `null`;
+
+exports[`Fonts renders proza correctly 1`] = `null`;
+
+exports[`Fonts renders rubik correctly 1`] = `null`;

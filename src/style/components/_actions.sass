@@ -1,0 +1,76 @@
+/* Actions
+ */
+
+.actions
+  display: flex
+  cursor: default
+  list-style: none
+  margin: calc(#{$margin} * -0.5)
+  padding-left: 0
+
+  li
+    padding: 0 0 0 calc(#{$margin} * 0.5)
+    vertical-align: middle
+
+  &.special
+    justify-content: center
+    width: 100%
+    margin-left: 0
+
+    li:first-child
+      padding-left: 0
+
+  &.stacked
+    flex-direction: column
+    margin-left: 0
+
+    li
+      padding: calc(#{$margin} * 0.65) 0 0 0
+
+      &:first-child
+        padding-top: 0
+
+  &.fit
+    width: calc(100% + calc(#{$margin} * 0.5))
+
+    li
+      flex: 1 1 auto
+      width: 100%
+
+      > *
+        width: 100%
+
+    &.stacked
+      width: 100%
+
+@media (max-width: $xsmall)
+  .actions:not(.fixed)
+    flex-direction: column
+    margin-left: 0
+    width: 100% !important
+
+    li
+      flex: 1 1 auto
+      padding: calc(#{$margin} * 0.5) 0 0 0
+      text-align: center
+      width: 100%
+
+      > *
+        width: 100%
+
+      &:first-child
+        padding-top: 0
+
+      input
+        &[type="submit"], &[type="reset"], &[type="button"]
+          width: 100%
+
+      button, .button
+        width: 100%
+
+      input
+        &[type="submit"].icon:before, &[type="reset"].icon:before, &[type="button"].icon:before
+          margin-left: -0.5rem
+
+      button.icon:before, .button.icon:before
+        margin-left: -0.5rem

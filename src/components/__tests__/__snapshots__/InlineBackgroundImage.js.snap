@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InlineBackgroundImage snapshot renders properly 1`] = `
+<div
+  className="inline-bg-img"
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <div
+    className="inline-bg-img-underlay-wrapper"
+  >
+    <div
+      data-testid="gatsby-image"
+    >
+      {"className":"inline-bg-img-image","fluid":{},"alt":"alttext","style":{"position":"absolute","top":0,"bottom":0,"left":0,"right":0}}
+    </div>
+    <div
+      className="is-overlay"
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.65)",
+        }
+      }
+    />
+  </div>
+  <div
+    className="is-overlay "
+    style={
+      Object {
+        "bottom": 0,
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "left": 0,
+        "padding": "inherit",
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <div>
+      children
+    </div>
+  </div>
+</div>
+`;

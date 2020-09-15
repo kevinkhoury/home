@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoScript renders correctly 1`] = `
+<noscript>
+  <div
+    style={
+      Object {
+        "fontSize": "20px",
+        "margin": "auto",
+        "padding": "20px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <h3>
+      Javascript Disabled
+    </h3>
+    <p>
+      This site requires javascript to display content. Please enable javascript and try again.
+    </p>
+  </div>
+</noscript>
+`;

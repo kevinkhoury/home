@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader snapshot renders properly 1`] = `
+<header
+  className="page-head"
+>
+  <h1
+    className="page-head-title"
+  >
+    header
+  </h1>
+  <p
+    className="page-head-description"
+  >
+    subheader
+  </p>
+  <p
+    className="page-head-mission-statement"
+  >
+    missionStatement
+  </p>
+</header>
+`;

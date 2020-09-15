@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewableImage snapshot renders properly 1`] = `
+Array [
+  <div
+    data-testid="gatsby-image"
+  >
+    {"className":"gatsby-resp-image-image","fluid":{"foobar":"basic fluid"},"alt":"alttext"}
+  </div>,
+  <figcaption>
+    captiontext
+  </figcaption>,
+]
+`;

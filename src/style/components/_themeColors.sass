@@ -1,0 +1,161 @@
+/* Main - Theme styles  */
+
+body
+  color: $color-body-text
+  background: $color-bg
+  transition: background 0.3s ease-out
+  transition-delay: 0.25
+  overflow-x: hidden
+  font-size: 1.5rem
+  line-height: 1.6em
+  font-weight: 400
+  font-style: normal
+  letter-spacing: 0
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -moz-font-feature-settings: "liga" on
+
+\::selection
+  text-shadow: none
+  background: $color-selection
+
+hr
+  border-top: 1px solid $color-hr
+  &::after
+    background: $color-hr
+    box-shadow: $color-bg 0 0 0 5px
+
+blockquote
+  border-left: $color-bg 0.5em solid
+
+a
+  color: $color-links
+
+figcaption
+  color: $color-caption
+
+th
+  border-bottom: solid 1px $color-table-border
+
+tbody
+  tr
+    border: solid 1px $color-table-border
+    &:nth-child(2n)
+      background-color: $color-table-alternate
+
+label
+  color: $color-body-text
+
+input:not([type="submit"], [type="reset"], [type="checkbox"], [type="button"], [type="radio"]),
+select,
+textarea
+  color: $color-input
+  background: $color-input-bg
+  border: solid 1px $color-input-inset
+  &::placeholder
+    color: $color-input-placeholder
+  &:focus
+    border-color: $color-input-inset-active
+    box-shadow: 0 0 0 1px $color-input-inset-active
+    background: $color-input-active-bg
+
+select
+  option
+    color: $color-input
+    background: $color-input-bg
+  &:focus::-ms-value
+    background-color: transparent
+
+input
+  &[type="checkbox"], &[type="radio"]
+    & + label
+      color: $color-body-text
+      &:before
+        background: $color-input-bg
+        border: solid 1px $color-input-inset
+    &:checked + label:before
+      background: $color-input-bg
+      border-color: $color-input-inset
+      color: $color-input
+    &:focus + label:before
+      border-color: $color-input-inset-active
+      box-shadow: 0 0 0 1px $color-input-inset-active
+
+button,
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+  color: $color-button
+  background-color: $color-button-bg
+  box-shadow: inset 0 0 0 2px $color-button-inset
+  &:hover,&:active
+    color: $color-button-active
+    background-color: $color-button-bg-active
+    box-shadow: inset 0 0 0 2px $color-button-inset-active
+
+.hamburger-inner
+  background-color: $color-hamburger
+  &::before, &::after
+    background-color: $color-hamburger
+
+.nav-burger, .nav-burger:focus, .nav-burger:hover, .nav-burger:active
+  box-shadow: none
+  background-color: rgba(0,0,0,0)
+
+.nav-burger:focus, .nav-burger:hover, .nav-burger:active
+  .hamburger-inner
+    background-color: $color-hamburger-active
+    &::before, &::after
+      background-color: $color-hamburger-active
+
+.site-head
+  &-left a, &-right a
+    color: $color-menu-links
+  &-logo
+    color: $color-logo
+
+.nav-current a, .site-head a:hover
+  color: $color-menu-links-hover
+
+@media (max-width: 850px)
+  .site-head
+    &-open
+      background: $color-mobile-nav-open
+      .nav-current a
+        border-bottom: $color-menu-links 2px solid
+
+.page-head
+  &-title
+    color: $color-title
+  &-description
+    color: $color-description
+
+.error-head
+  p
+    color: $color-description
+
+.site-foot
+  color: $color-footer
+  border-color: $color-footer-border
+  a
+    color: $color-links
+
+.post-card
+  background: linear-gradient(135deg, $color-postcard-overlay 25%, darken($color-postcard-overlay, 75%) 100%) center center
+  &-content
+    color: $color-postcard-text
+    background: rgba(0, 0, 0, 0.4)
+  &.no-image
+    &:before
+      color: rgba($color-postcard-text, 0.2)
+
+.post-content
+  &-title
+    color: $color-title
+
+.post-meta
+  color: $color-meta
+  a
+    color: $color-meta

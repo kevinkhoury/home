@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCard snapshot renders properly 1`] = `
+<article
+  className="post post-card post-card-large with-image in-view"
+>
+  <div
+    className="bg-image"
+    data-testid="bg-image"
+  >
+    {"fluid":[{"foobar":"mobile fluid"},{"foobar":"desktop fluid","media":"(min-width: 700px)"}],"alt":"imgalt"}
+    <a
+      className="post-card-link"
+      href="/foobar"
+    >
+      <div
+        className="post-card-content"
+      >
+        <div
+          className="post-card-text"
+        >
+          <h2
+            className="post-card-title"
+          >
+            pagetitle
+          </h2>
+          <time
+            className="post-card-date"
+            dateTime="2020-01-01"
+          >
+            Jan 1, 2020
+          </time>
+        </div>
+      </div>
+    </a>
+  </div>
+</article>
+`;

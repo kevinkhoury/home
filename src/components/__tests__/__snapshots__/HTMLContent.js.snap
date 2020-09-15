@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HTMLContent snapshot renders correctly 1`] = `
+<div
+  className="foobar"
+>
+  <div
+    className="fooclass"
+  >
+    foobar
+  </div>
+</div>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm snapshot renders properly 1`] = `
+<div
+  className="contact-form-holder"
+>
+  <form
+    className="contact-form initial"
+    data-netlify="true"
+    data-netlify-honeypot="uuid"
+    method="post"
+    name="contact"
+    onSubmit={[Function]}
+  >
+    <input
+      name="form-name"
+      type="hidden"
+      value="contact"
+    />
+    <div
+      hidden={true}
+    >
+      <input
+        aria-label="uuid"
+        name="uuid"
+        onChange={[Function]}
+        placeholder="uuid"
+        tabIndex="-1"
+      />
+    </div>
+    <input
+      aria-label="name"
+      className="input"
+      id="name"
+      name="name"
+      onChange={[Function]}
+      placeholder="name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      aria-label="email"
+      className="input"
+      id="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="email"
+      required={true}
+      type="email"
+      value=""
+    />
+    <textarea
+      aria-label="message"
+      className="textarea"
+      id="message"
+      name="message"
+      onChange={[Function]}
+      placeholder="message"
+      required={true}
+      rows={4}
+      value=""
+    />
+    <button
+      className="button large"
+      type="submit"
+    >
+      submit
+    </button>
+  </form>
+  <div
+    className="response-msg initial"
+  />
+</div>
+`;

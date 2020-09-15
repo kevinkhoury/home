@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout snapshot renders properly 1`] = `
+Array [
+  "Fonts",
+  "SEO",
+  <div
+    className="site-wrapper "
+  >
+    <header
+      className="site-head"
+    >
+      <div
+        className="site-head-container"
+      >
+        Nav
+        ThemeSwitcher
+      </div>
+    </header>
+    <main
+      className="site-main"
+      id="site-main"
+    >
+      <div
+        className="transition-fade"
+        id="swup"
+      >
+        <div>
+          children
+        </div>
+      </div>
+    </main>
+    <footer
+      className="site-foot"
+    >
+      © 
+      2019
+       
+      <a
+        href="/"
+      >
+        name
+      </a>
+      , all rights reserved.
+    </footer>
+  </div>,
+]
+`;

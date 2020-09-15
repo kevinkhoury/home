@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExtraContent renders correctly 1`] = `
+<section
+  className="extra-content extra-content-foobar in-view"
+>
+  <hr />
+  HTMLContent
+</section>
+`;

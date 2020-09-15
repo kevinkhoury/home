@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav snapshot renders properly 1`] = `
+Array [
+  <button
+    aria-label="Open or close menu"
+    className="nav-burger"
+    onClick={[Function]}
+  >
+    <div
+      className="hamburger hamburger--collapse"
+    >
+      <div
+        className="hamburger-box"
+      >
+        <div
+          className="hamburger-inner"
+        />
+      </div>
+    </div>
+  </button>,
+  <nav
+    className="site-head-left"
+    id="swup"
+  >
+    <ul
+      className="nav"
+    >
+      <li
+        className="nav-foobar1"
+      >
+        <a
+          href="/foobar1"
+        >
+          Foobar1
+        </a>
+      </li>
+      <li
+        className="nav-foobar2"
+      >
+        <a
+          href="/foobar2"
+        >
+          Foobar2
+        </a>
+      </li>
+      <li
+        className="nav-foobar3"
+      >
+        <a
+          href="/foobar3"
+        >
+          Foobar3
+        </a>
+      </li>
+    </ul>
+  </nav>,
+  <div
+    className="site-head-center"
+  >
+    <a
+      className="site-head-logo"
+      href="/"
+    >
+      foobar.com
+    </a>
+  </div>,
+  <div
+    className="site-head-right"
+  >
+    <div
+      className="social-links"
+    >
+      <a
+        className="social-link"
+        href="https://foobar.com"
+        rel="noopener"
+        target="_blank"
+      >
+        Twitter
+      </a>
+      <a
+        className="social-link"
+        href="https://foobar.com"
+        rel="noopener"
+        target="_blank"
+      >
+        Facebook
+      </a>
+      <a
+        className="social-link"
+        href="https://foobar.com"
+        rel="noopener"
+        target="_blank"
+      >
+        Pinterest
+      </a>
+    </div>
+  </div>,
+]
+`;
+
+exports[`NavLink snapshot renders properly 1`] = `
+<li
+  className="nav-name"
+>
+  <a
+    href="/slug"
+  >
+    Name
+  </a>
+</li>
+`;
+
+exports[`SocialLink snapshot renders properly 1`] = `
+<a
+  className="social-link"
+  href="/slug"
+  rel="noopener"
+  target="_blank"
+>
+  name
+</a>
+`;

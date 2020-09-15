@@ -1,0 +1,71 @@
+/* Layout */
+
+.in-view
+  opacity: 0
+  transition: opacity 0.3s ease-in
+  &.visible
+    opacity: 1
+
+.site-wrapper
+  padding: 3vw
+  min-height: 100vh
+
+@media (max-width: 850px)
+  .site-wrapper
+    padding: 6vw
+
+.page-head
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  padding: 6vw 0
+  // max-width: 70%
+  margin: auto
+  text-align: center
+  &-title
+    margin: 0
+    font-size: 4.2rem
+  &-description
+    margin: 0 0 1.6vw
+    font-size: 2.2rem
+    line-height: 1.35em
+
+.has-image
+  .page-head
+    padding-bottom: 0
+
+@media (max-width: 500px)
+  .page-head
+    &-title
+      font-size: 2rem
+    &-description
+      font-size: 1.6rem
+
+.error-head
+  height: 75vh
+
+  h1
+    margin: 0
+    font-size: 7rem
+    line-height: 1.1em
+    font-weight: $font-bold
+    letter-spacing: 10px
+
+  p
+    font-size: 1.4rem
+    text-transform: uppercase
+    letter-spacing: 1px
+
+.error-link
+  margin-top: 1rem
+  font-size: 1.5rem
+  text-decoration: underline
+
+.site-foot
+  margin: 10rem auto 3vw auto
+  max-width: 460px
+  border-top: 1px solid
+  padding-top: 2rem
+  text-align: center
+  font-size: 1.4rem

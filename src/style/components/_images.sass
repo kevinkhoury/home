@@ -1,0 +1,47 @@
+/* Styling for Ghost-specific elements
+ */
+
+figcaption
+  padding: 1.5rem
+  font-size: 1.3rem
+  line-height: 1.4em
+  text-align: center
+  font-style: italic
+
+.gatsby-resp-image
+  &-wrapper
+    max-width: 100%
+    width: 100%
+  &-card
+    margin: 7vw 0
+    &-no-margin
+      margin: 0
+    &-wide
+      position: relative
+      width: 75vw
+      min-width: 100%
+      margin-left: calc(50% - 50vw)
+      margin-right: calc(50% - 50vw)
+      transform: translateX(calc(50vw - 50%))
+    &-full
+      position: relative
+      width: 94vw
+      min-width: 100%
+      max-width: 1200px
+      margin-left: calc(50% - 50vw)
+      margin-right: calc(50% - 50vw)
+      transform: translateX(calc(50vw - 50%))
+      figcaption
+        padding-left: 0
+        padding-right: 0
+        text-align: left
+
+.gatsby-image-wrapper,
+.gatsby-image-wrapper span
+  display: block
+
+@media (max-width: 800px)
+  .gatsby-resp-image-full
+    width: 100vw
+    figcaption
+      padding-left: 6vw

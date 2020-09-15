@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostFeed snapshot renders properly 1`] = `
+<div
+  className="post-feed"
+>
+  <div
+    data-testid="postcard"
+  >
+    {"count":0,"image":{"src":{"childImageSharp":{"fluid":{},"original":{"height":100,"width":200}}},"d":{"childImageSharp":{"fluid":{"foobar":"foo desktop fluid"}}},"m":{"childImageSharp":{"fluid":{"foobar":"foo mobile fluid"}}},"alt":"fooalt","caption":"foocaption"},"slug":"/foo/","pageTitle":"foo","date":"2020-01-01T08:00:00.000Z"}
+  </div>
+  <div
+    data-testid="postcard"
+  >
+    {"count":1,"image":{"src":{"childImageSharp":{"fluid":{},"original":{"height":100,"width":200}}},"d":{"childImageSharp":{"fluid":{"foobar":"bar desktop fluid"}}},"m":{"childImageSharp":{"fluid":{"foobar":"bar mobile fluid"}}},"alt":"baralt","caption":"barcaption"},"slug":"/bar/","pageTitle":"bar","date":"2020-01-01T08:00:00.000Z"}
+  </div>
+  <div
+    data-testid="postcard"
+  >
+    {"count":2,"image":{"src":{"childImageSharp":{"fluid":{},"original":{"height":100,"width":200}}},"d":{"childImageSharp":{"fluid":{"foobar":"baz desktop fluid"}}},"m":{"childImageSharp":{"fluid":{"foobar":"baz mobile fluid"}}},"alt":"bazalt","caption":"bazcaption"},"slug":"/baz/","pageTitle":"baz","date":"2020-01-01T08:00:00.000Z"}
+  </div>
+</div>
+`;

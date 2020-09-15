@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShortBiography snapshot renders properly 1`] = `
+<div
+  className="row"
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <div
+    className="col-6"
+  >
+    <p>
+      shortBiography
+    </p>
+    <a
+      className="button"
+      href="/link/"
+    >
+      label
+    </a>
+  </div>
+  <div
+    className="col-6"
+  >
+    <figure
+      className="gatsby-resp-image-card-no-margin"
+    >
+      <img
+        alt="alttext"
+        className="gatsby-resp-image-image"
+        src={
+          Object {
+            "childImageSharp": Object {},
+          }
+        }
+      />
+      <figcaption>
+        captiontext
+      </figcaption>
+    </figure>
+  </div>
+</div>
+`;

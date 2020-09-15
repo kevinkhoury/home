@@ -1,0 +1,40 @@
+/* Buttons
+ */
+
+button,
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+  display: inline-block
+  height: $height
+  padding: 0 2rem
+  border: 0
+  border-radius: $radius
+  cursor: pointer
+  font-size: 1.4rem
+  font-weight: $font-normal
+  line-height: $height
+  text-align: center
+  text-decoration: none
+  white-space: nowrap
+  appearance: none
+  transition: 0.4s ease
+  &:hover,&:active
+    text-decoration: none
+    transition: 0.2s ease
+  &.fit
+    width: 100%
+  &.small
+    height: calc(#{$height} * 0.9)
+    line-height: calc(#{$height} * 0.9)
+    padding: 0 1.5rem
+    font-size: 1.2rem
+  &.large
+    height: calc(#{$height} * 1.14)
+    line-height: calc(#{$height} * 1.14)
+    padding: 0 3rem
+    font-size: 1.6rem
+  &.disabled
+    pointer-events: none
+    opacity: 0.4
