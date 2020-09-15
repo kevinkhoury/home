@@ -1,31 +1,31 @@
 ---
-templateKey: 'site-data'
+templateKey: site-data
 published: false
-name: '{{client_name}}'
-jobTitle: '{{job_title}}'
-siteName: '{{site_name}}'
-siteUrl: 'https://{{site_url}}'
-siteAnalytics: ~
+name: Kevin Khoury
+jobTitle: CEO/President at Goldman Baxter
+siteName: Kevin Khoury
+siteUrl: https://www.kevinkhoury.me
+siteAnalytics: null
+favicon: /img/favicon.png
+fallbackImage: /img/headshot.jpg
 socialLinks:
   twitter:
-    url: ''
+    url: ""
     show: false
   facebook:
-    url: ''
+    url: ""
     show: false
   linkedin:
-    url: ''
-    show: false
+    url: https://www.linkedin.com/in/kevin-khoury/
+    show: true
   pinterest:
-    url: ''
+    url: ""
     show: false
   instagram:
-    url: ''
+    url: ""
     show: false
-favicon: '/img/favicon.png'
-fallbackImage: '/img/headshot.jpg'
 themeOptions:
-  colorScheme: 'londn'
-  fontScheme: 'muli'
+  colorScheme: londn
+  fontScheme: proza
   showThemeSwitcher: false
 ---
