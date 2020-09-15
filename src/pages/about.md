@@ -8,7 +8,7 @@ schemaType: AboutPage
 header: About Kevin Khoury
 subheader: Career highlights past and present
 featuredImage:
-  src: /img/about.jpeg
+  src: ""
   alt: Headshot of Kevin Khoury
   caption: null
 longBiography_MD: >-
