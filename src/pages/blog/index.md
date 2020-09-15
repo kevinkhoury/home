@@ -1,14 +1,14 @@
 ---
 templateKey: blog-archive
-published: true
-schemaType: WebPage
 pageSlug: /blog
 pageTitle: Blog
-metaDescription: '{{client_name}}’s blog'
-header: '{{client_name}}’s Blog'
-subheader: ~
+metaDescription: Kevin Khoury, CEO/President of Goldman Baxter - blog
+published: true
+schemaType: WebPage
+header: Kevin Khoury’s Blog
+subheader: null
 featuredImage:
-  src: ~
-  alt: ~
-  caption: ~
+  ? src
+  ? alt
+  ? caption
 ---
