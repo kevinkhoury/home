@@ -8,7 +8,7 @@ schemaType: WebPage
 header: Kevin Khoury
 subheader: CEO/President at Goldman Baxter
 featuredImage:
-  src: /img/about.jpeg
+  src: /img/headshot.jpg
   alt: Headshot of Kevin Khory
   caption: null
 missionStatement: A visionary with integrity and strong leadership and
