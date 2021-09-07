@@ -51,7 +51,7 @@
     "react-helmet": "^6.1.0",
     "react-intersection-observer": "^8.26.2",
     "remark": "^12.0.1",
-    "remark-html": "^12.0.0",
+    "remark-html": "^13.0.2",
     "uuid": "^8.3.0",
     "yaml-front-matter": "^4.1.0"
   },
